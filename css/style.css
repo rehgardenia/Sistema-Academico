@@ -1,0 +1,83 @@
+  /* Resetando alguns estilos padrões */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo fonte e fundo do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Estilo para o contêiner do formulário */
+.form-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Estilo para o título */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os rótulos e campos de input */
+label {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Efeito no hover para o botão */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Espaçamento entre as seções do formulário */
+br {
+    display: block;
+    margin-bottom: 10px;
+}
+#notas-title {
+    text-align: center;
+    color: #4CAF50;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSW - Atividade</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Sistema Acadêmico</h1>
+        <form method="POST" action="http://localhost:8080/dsw-atv/resultado.php">
+            <label for="disciplina">Nome da Disciplina:</label>
+            <input type="text" size="25" name="disciplina" id="disciplina"> 
+            
+            <label for="aulas">Total de Aulas Ministradas:</label>
+            <input type="text" name="aulas" id="aulas"> 
+            <label for="aluno">Nome do Aluno:</label>
+            <input type="text" name="aluno" id="aluno"> 
+            
+            <label for="faltas">Total de Faltas:</label>
+            <input type="text" name="faltas" id="faltas"> 
+            
+            <label id="notas-title">Notas das Avaliações</label>
+            <label for="A1">A1:</label>
+            <input type="text" name="A1" id="A1"> 
+            
+            <label for="A2">A2:</label>
+            <input type="text" name="A2" id="A2"> 
+            
+            <label for="A3">A3:</label>
+            <input type="text" name="A3" id="A3"> 
+            
+            <label for="A4">A4:</label>
+            <input type="text" name="A4" id="A4"> 
+            
+            <input type="submit" value="ENVIAR">
+        </form>
+    </div>
+</body>
+</html>
